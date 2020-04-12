@@ -20,5 +20,6 @@ jobs:
     steps:
     - name: Push
       uses: actions/setup-node@v1
+    - run: npm ci
     - run: clasp push
     
