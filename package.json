@@ -1,0 +1,22 @@
+{
+  "name": "dungeondoc",
+  "version": "1.0.0",
+  "description": "If you you want to play a tabletop RPG with friends remotely, you need a method to share information and the results of dice.",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieldsj/dungeondoc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieldsj/dungeondoc/issues"
+  },
+  "homepage": "https://github.com/danieldsj/dungeondoc#readme",
+  "dependencies": {
+    "clasp": "^1.0.0"
+  }
+}
