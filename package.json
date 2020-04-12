@@ -4,7 +4,7 @@
   "description": "If you you want to play a tabletop RPG with friends remotely, you need a method to share information and the results of dice.",
   "main": "code.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/eslint code.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/danieldsj/dungeondoc#readme",
   "dependencies": {
     "clasp": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
   }
 }
