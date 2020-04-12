@@ -4,8 +4,8 @@
   "description": "If you you want to play a tabletop RPG with friends remotely, you need a method to share information and the results of dice.",
   "main": "code.js",
   "scripts": {
-    "test": "node_modules/.bin/eslint code.js",
-    "push": "clasp push"
+    "test": "node_modules/.bin/eslint src/code.js",
+    "push": "cd src && clasp push"
   },
   "repository": {
     "type": "git",
