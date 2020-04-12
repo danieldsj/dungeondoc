@@ -14,13 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: ESLint
+    - uses: actions/checkout@v2
       uses: actions/setup-node@v1
-    - run: npm ci
-  push:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Push
-      uses: actions/setup-node@v1
-    - run: npm ci
-    - run: clasp push
-    
+    - run: npm install
+    - run: npm run build --if-present
+    - run: npm test  
